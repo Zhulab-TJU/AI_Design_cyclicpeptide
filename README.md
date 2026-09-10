@@ -9,7 +9,8 @@ same computational code (src/); each target directory stores only that target's
 configuration, data, script entry points and results, and outputs a standardized
 candidate list results.csv (or results.xlsx) for downstream solid-phase synthesis and
 wet-lab validation.
-![alt text](image.png)
+<img width="1484" height="653" alt="image" src="https://github.com/user-attachments/assets/2f0f3cb9-87ed-458e-a1bc-5f7f74c42563" />
+
 
 ## 2. Runtime Environment
 
