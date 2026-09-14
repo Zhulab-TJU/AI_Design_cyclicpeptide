@@ -1,0 +1,5 @@
+# Keap1 Kelch (PDB 3WN7, chain A) - initial binding hotspot residues (HS1)
+# 27 residues in total; numbering follows PDB 3WN7 chain A.
+A333 A334 A363 A364 A380 A382 A386 A387 A389
+A414 A415 A433 A436 A461 A462 A478 A480 A483
+A509 A525 A530 A555 A571 A572 A577 A602 A603

@@ -1,0 +1,20 @@
+{
+  "name": "negative_control_2",
+  "sequences": [
+    {
+      "protein": {
+        "id": ["A"],
+        "sequence": "VGRLIYTAGGYFRQSLSYLEAYNPSNGSWLRLADLQVPRSGLAGCVVGGLLYAVGGRNNSPDGNTDSSALDCYNPMTNQWSPCASMSVPRNRIGVGVIDGHIYAVGGSHGCIHHSSVERYEPERDEWHLVAPMLTRRIGVGVAVLNRLLYAVGGFDGTNRLNSAECYYPERNEWRMITPMNTIRSGAGVCVLHNCIYAAGGYDGQDQLNSVERYDVETETWTFVAPMRHHRSALGITVHQGKIYVLGGYDGHTFLDSVECYDPDSDTWSEVTRMTSGRSGVGVAV"
+      }
+    },
+    {
+      "ligand": {
+        "id": ["X"],
+        "smiles": "N2CC(=O)N1[C@@]([H])(CCC1)C(=O)NCC(=O)N[C@@]([H])(C)C(=O)NCC(=O)NCC(=O)N1[C@@]([H])(CCC1)C(=O)NCC2(=O)"
+       }
+    }
+  ],
+  "modelSeeds": [42378],
+  "dialect": "alphafold3",
+  "version": 1
+}
