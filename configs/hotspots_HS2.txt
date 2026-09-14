@@ -1,5 +1,0 @@
-# Keap1 Kelch (PDB 3WN7, chain A) - deep-pocket hotspot residues (HS2)
-# the bottom of the pocket: 18 residues in total, numbering follows PDB 3WN7 chain A.
-A365 A366 A367 A416 A467 A418
-A463 A464 A465 A510 A511 A512
-A557 A558 A559 A604 A605 A606
