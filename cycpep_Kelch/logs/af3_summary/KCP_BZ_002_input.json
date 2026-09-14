@@ -1,0 +1,20 @@
+{
+  "name": "boltzgen002",
+  "sequences": [
+    {
+      "protein": {
+        "id": ["A"],
+        "sequence": "VGRLIYTAGGYFRQSLSYLEAYNPSNGSWLRLADLQVPRSGLAGCVVGGLLYAVGGRNNSPDGNTDSSALDCYNPMTNQWSPCASMSVPRNRIGVGVIDGHIYAVGGSHGCIHHSSVERYEPERDEWHLVAPMLTRRIGVGVAVLNRLLYAVGGFDGTNRLNSAECYYPERNEWRMITPMNTIRSGAGVCVLHNCIYAAGGYDGQDQLNSVERYDVETETWTFVAPMRHHRSALGITVHQGKIYVLGGYDGHTFLDSVECYDPDSDTWSEVTRMTSGRSGVGVAV"
+      }
+    },
+    {
+      "ligand": {
+        "id": ["X"],
+        "smiles": "N2[C@@]([H])(CO)C(=O)N[C@@]([H])(Cc1ccccc1)C(=O)N[C@@]([H])(Cc1ccccc1)C(=O)N[C@@]([H])(CC(=O)O)C(=O)N[C@@]([H])(CCCNC(=N)N)C(=O)N[C@@]([H])(C(C)C)C(=O)N[C@@]([H])([C@]([H])(O)C)C(=O)NCC(=O)N[C@@]([H])(CCC(=O)O)C(=O)N[C@@]([H])(C(C)C)C(=O)N[C@@]([H])(Cc1ccccc1)C2(=O)"
+       }
+    }
+  ],
+  "modelSeeds": [42378],
+  "dialect": "alphafold3",
+  "version": 1
+}
