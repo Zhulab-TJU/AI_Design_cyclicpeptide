@@ -1,0 +1,10 @@
+candidate_id,sequence,length,generator,iptm,ddg_kcal_per_mol,contact_molecular_surface,bli_signal,notes
+KCP8_9,GFNGDPFF,8,RFdiffusion+ProteinMPNN,0.79,-33.350,,binding,"AlphaFold3 bound state is close to the simple_cycpep_predict free state; pre-organised"
+KCP8_11,SGSPTVVA,8,RFdiffusion+ProteinMPNN,0.77,-28.441,,no binding,Candidate that completed the full AlphaFold3 + Rosetta workflow
+KCP8_20,GLPDDGPV,8,RFdiffusion+ProteinMPNN,0.80,-25.490,,no binding,"High ipTM but no detectable BLI signal; kept as a case showing the limits of ipTM"
+KCP9_15,GASDDGIIP,9,RFdiffusion+ProteinMPNN,0.80,-36.638,,binding,Candidate that completed the full AlphaFold3 + Rosetta workflow
+KCP10_1,SNLQISPADD,10,RFdiffusion+ProteinMPNN,0.77,-29.946,,no binding,Representative length-10 candidate of batch 1
+KCP_BZ_002,SFFDRVTGEVF,11,BoltzGen,0.74,-40.549,342.568,binding,"Batch-2 synthesis candidate; follow-up measurement Kd ~ 9 uM"
+KCP_BZ_003,FDERVYGIPSSP,12,BoltzGen,0.80,-48.230,372.849,binding,"Batch-2 synthesis candidate; lowest ddG"
+KCP_BZ_007,MTGFDRVTGELF,12,BoltzGen,0.73,-41.293,342.813,binding,Batch-2 synthesis candidate
+KCP_BZ_010,MFPELGDGSP,10,BoltzGen,0.77,-38.343,312.212,binding,"Batch-2 synthesis candidate; representative of the energy-funnel and conformational analysis"
