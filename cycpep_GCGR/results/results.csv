@@ -1,0 +1,56 @@
+candidate_id,sequence,length,campaign,generator,backbone_model,iptm,iptm_af3_archive,ddg_kcal_per_mol,contact_molecular_surface,notes
+GCGR_0,GADDTGVFVAALQGS,15,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_0.pdb,0.73,0.73,,,
+GCGR_1,MDFEFVRDTGLLPRFF,16,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_1.pdb,0.59,0.59,,,
+GCGR_2,GLLSSAKNFHLPSLPG,16,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_2.pdb,0.60,0.60,,,
+GCGR_6,GYVESDVLGGVTG,13,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_6.pdb,0.57,0.57,,,
+GCGR_14,MLFDPTWEGFRRGF,14,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_14.pdb,0.71,0.71,,,
+GCGR_22,SAFSAYYAVKTGVASLG,17,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_22.pdb,0.64,0.64,,,
+GCGR_26,VPVVYPGFKPVRQTG,15,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_26.pdb,0.71,,,,,
+GCGR_30,MSSGFLAAGERVSNP,15,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_30.pdb,0.79,0.79,-47.167,568.923,,
+GCGR_31,GGNPASAENSPIAGLL,16,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_31.pdb,0.77,0.77,-29.893,347.311,,
+GCGR_37,MERLLLEGSFSPDVPLA,17,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_37.pdb,0.58,,,,,
+GCGR_9_12_2,TTGDFPPLS,9,RF_round2,RFdiffusion+ProteinMPNN (inferred),length_scan/round2_length_9_12/GCGR_9_12_2.pdb,0.79,0.79,-32.492,283.805,,
+GCGR_9_12_8,GFFGAAGNPLNG,12,RF_round2,RFdiffusion+ProteinMPNN (inferred),length_scan/round2_length_9_12/GCGR_9_12_8.pdb,0.64,,,,,
+GCGR_9_12_15,FFVAPVSFRDVL,12,RF_round2,RFdiffusion+ProteinMPNN (inferred),length_scan/round2_length_9_12/GCGR_9_12_15.pdb,0.68,,,,,
+GCGR_9_12_41,GSSVFGLPFPG,11,RF_round2,RFdiffusion+ProteinMPNN (inferred),length_scan/round2_length_9_12/GCGR_9_12_41.pdb,0.60,,,,,
+GCGR_9_12_51,FNTVIAPDGRPF,12,RF_round2,RFdiffusion+ProteinMPNN (inferred),length_scan/round2_length_9_12/GCGR_9_12_51.pdb,0.73,0.73,-41.556,523.522,,
+GCGR_9_0,GGRFPAAGG,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_0.pdb,0.85,0.85,-33.869,307.821,,
+GCGR_9_1,GGSDPAERG,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_1.pdb,0.71,,,,,
+GCGR_9_2,GFNPLTPDG,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_2.pdb,0.64,,,,,
+GCGR_9_5,GVPGGPPGG,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_5.pdb,0.62,,,,,
+GCGR_9_6,GTFLPGFSG,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_6.pdb,0.68,,,,,
+GCGR_9_8,FSGAISDLA,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_8.pdb,0.62,,,,,
+GCGR_9_9,GSDPRLPFF,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_9.pdb,0.77,0.77,-32.180,378.125,,
+GCGR_9_11,DSLNPVTRG,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_11.pdb,0.85,0.85,-37.759,389.926,,
+GCGR_9_13,GVLPEYGDS,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_13.pdb,0.70,,,,,
+GCGR_9_14,SVAPTALFR,9,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_9_14.pdb,0.66,,,,,
+GCGR_12_1,FDNRTAATNFFG,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_1.pdb,0.61,,,,,
+GCGR_12_3,FYDEKSGIVSFP,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_3.pdb,0.67,,,,,
+GCGR_12_5,GGKDGISSVLGG,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_5.pdb,0.73,,,,,
+GCGR_12_6,GNPFFNLLGGEG,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_6.pdb,0.63,,,,,
+GCGR_12_8,SSPLHPDASFYG,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_8.pdb,0.67,,,,,
+GCGR_12_9,MRDSRSAAASFL,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_9.pdb,0.66,,,,,
+GCGR_12_10,GIFGGPLSLADA,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_10.pdb,0.63,,,,,
+GCGR_12_11,GSLSPVAARLSG,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_11.pdb,0.69,,,,,
+GCGR_12_13,GLSDSSGVFLPL,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_13.pdb,0.72,,,,,
+GCGR_12_14,SVAFSSDSPLPF,12,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_12_14.pdb,0.71,,,,,
+GCGR_15_0,GVSSPETSGEAALLA,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_0.pdb,0.61,,,,,
+GCGR_15_1,GAITPFSYGNYSSSL,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_1.pdb,0.60,,,,,
+GCGR_15_2,DERANDLFGALPPLL,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_2.pdb,0.69,,,,,
+GCGR_15_4,GSSAIFSSSTLSMVF,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_4.pdb,0.63,,,,,
+GCGR_15_5,GDPALSPFAEVNLAG,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_5.pdb,0.70,,,,,
+GCGR_15_6,NPVFTPEHLFDRRPF,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_6.pdb,0.74,0.74,-40.055,602.792,,
+GCGR_15_8,YREGTDEFLEALAGG,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_8.pdb,0.60,,,,,
+GCGR_15_9,ILDNLPPFGVPSLAS,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_9.pdb,0.59,,,,,
+GCGR_15_11,STGPTTPVVGLISPG,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_11.pdb,0.62,,,,,
+GCGR_15_12,SRFFVPSVETFAPTF,15,RFpeptide_round3,RFpeptide,round3_RFpeptide/GCGR_15_12.pdb,0.63,,,,,
+GCGRcyc_102,MIDDFTGEYSGL,12,GCGRcyc,not recorded,,0.57,0.54,-45.090,447.861,"ipTM differs by more than rounding from the archived AF3 summary"
+GCGRcyc_105,SVLFEDGSVGLD,12,GCGRcyc,not recorded,,0.63,0.61,-47.920,451.208,"ipTM differs by more than rounding from the archived AF3 summary"
+GCGRcyc_108,MFDDFGRLLSLL,12,GCGRcyc,not recorded,,0.62,0.60,-55.411,620.613,"ipTM differs by more than rounding from the archived AF3 summary"
+GCGRcyc_374,MLDPLNGGYVLG,12,GCGRcyc,not recorded,,0.66,0.63,-44.043,452.792,"ipTM differs by more than rounding from the archived AF3 summary"
+GCGRcyc_507,LELPPELGL,9,GCGRcyc,not recorded,,0.62,0.60,,,"AF3 pose rejected (wrong binding site, not submitted to AlphaFold Server); excluded from Rosetta"
+GCGRcyc_584,MKLGDRTYS,9,GCGRcyc,not recorded,,0.68,0.68,-42.618,434.179,
+GCGRcyc_861,MFIDEETGILVL,12,GCGRcyc,not recorded,,0.58,0.55,-46.974,420.109,"ipTM differs by more than rounding from the archived AF3 summary"
+GCGRcyc_895,MFIDEETGLFLL,12,GCGRcyc,not recorded,,0.66,0.65,-53.901,492.322,"ipTM differs by more than rounding from the archived AF3 summary"
+GCGRcyc_897,FIDEFTGEYDGL,12,GCGRcyc,not recorded,,0.56,0.53,-46.980,464.717,"ipTM differs by more than rounding from the archived AF3 summary"
+GCGRcyc_932,FIDEETGLLILL,12,GCGRcyc,not recorded,,0.59,0.57,-41.229,340.665,"ipTM differs by more than rounding from the archived AF3 summary"
