@@ -1,0 +1,54 @@
+# Summary of the design parameters for cycpep_GCGR
+# Values are taken from the archived run records (structures, AlphaFold3 outputs and
+
+target:
+  name: "Glucagon receptor (GCGR)"
+  pdb: "8JIT"                   
+  chain: "R"
+  residues: "27-421"           
+  hotspot_session_structure: "8JIU"
+  note: >
+    The HS1 PyMOL session additionally contains an AlphaFold model of human GCGR
+    (object AF_P47871); the HS1 selection itself is defined on chain R of 8JIU.
+
+hotspots:
+  HS1: "hotspots_HS1.txt"       # 72 surface/interface residues, restraint set for the                            
+
+lengths:
+  rfdiffusion_round1: [12, 13, 14, 15, 16, 17]   # 60 peptide backbones retained
+  rfdiffusion_round2: [9, 10, 11, 12]            # 60 peptide backbones retained
+  batch1_candidates: [9, 11, 12, 13, 14, 15, 16, 17]  # 15 sequences taken on to AlphaFold3
+  round3_RFpeptide: [9, 12, 15]                  # 30 sequences, ten per length
+  GCGRcyc_set: [9, 12]
+
+rfdiffusion:
+  round1:
+    backbones_retained: 60
+    length_range: [12, 17]
+    note: "Chain A is a poly-glycine peptide backbone; the receptor chain B is fixed."
+  round2:
+    backbones_retained: 60
+    length_range: [9, 12]
+    note: "Denser scan of the short lengths; the same fixed receptor chain B."
+
+
+proteinmpnn:
+  note: >
+    Generate 5000 sequences per structure and pick the highest-scoring one.
+
+alphafold3:
+  metric: "ipTM"
+  local_seed: 42378           
+  num_samples: 5              
+                               
+  server: "https://alphafoldserver.com/"
+  note: >
+    Candidates were ranked by ipTM. For the GCGRcyc set the ipTM written in the
+    laboratory record is systematically 0.02-0.03 higher than the value in the
+    archived local AlphaFold3 summary; 
+
+rosetta:
+  metrics: ["ddG", "contact_molecular_surface"]
+
+
+

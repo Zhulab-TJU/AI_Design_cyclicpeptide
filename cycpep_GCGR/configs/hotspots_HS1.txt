@@ -1,0 +1,15 @@
+# GCGR (PDB 8JIT / 8JIU, chain R) - binding-surface hotspot residues (HS1)
+# 72 residues in total, used as the restraint set for the RFdiffusion backbone runs.
+# Numbering follows chain R of PDB 8JIU / 8JIT, i.e. human GCGR (UniProt P47871)
+# residues 27-421.
+# Read out of the archived PyMOL session data/hotspots/HS1_GCGR.pse
+# (selection "HS1", object 8JIU). The list was extracted from the session file;
+# no residues were added or removed by hand.
+R27 R28 R29 R30 R32 R33 R36 R64 R65
+R84 R85 R87 R114 R118 R121 R122 R123 R127
+R128 R131 R134 R135 R137 R138 R139 R141 R142
+R145 R149 R187 R191 R194 R195 R198 R199 R202
+R206 R207 R208 R209 R210 R212 R213 R215 R216
+R231 R232 R235 R236 R239 R292 R293 R294 R296
+R297 R298 R299 R301 R304 R307 R308 R311 R315
+R361 R370 R378 R381 R382 R385 R386 R389 R390
