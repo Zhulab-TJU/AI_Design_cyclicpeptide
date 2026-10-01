@@ -1,4 +1,4 @@
-candidate_id,sequence,length,campaign,generator,backbone_model,iptm,iptm_af3_archive,ddg_kcal_per_mol,contact_molecular_surface,notes
+candidate_id,sequence,length,campaign,generator,backbone_model,iptm,iptm_af3_archive,ddG_kcal_per_mol,contact_molecular_surface,notes
 GCGR_0,GADDTGVFVAALQGS,15,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_0.pdb,0.73,0.73,,,
 GCGR_1,MDFEFVRDTGLLPRFF,16,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_1.pdb,0.59,0.59,,,
 GCGR_2,GLLSSAKNFHLPSLPG,16,RF_round1,RFdiffusion+ProteinMPNN (inferred),length_scan/round1_length_12_17/GCGR_2.pdb,0.60,0.60,,,
