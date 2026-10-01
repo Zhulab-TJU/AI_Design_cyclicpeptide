@@ -1,0 +1,42 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<ScoreFunction name="beta" weights="beta_nov16">
+			<Reweight scoretype="arg_cation_pi" weight="3" />
+			<Reweight scoretype="coordinate_constraint" weight="2" />
+			<Reweight scoretype="atom_pair_constraint" weight="1" />
+			<Reweight scoretype="dihedral_constraint" weight="2" />
+			<Reweight scoretype="angle_constraint" weight="1" />
+		</ScoreFunction>
+	</SCOREFXNS>
+<RESIDUE_SELECTORS>
+	<Chain name="chA" chains="A"/>
+	<Neighborhood name="int" selector="chA" distance="8"/>
+	<Not name="target" selector="chA"/>
+	<And name="target_int" selectors="target,int" />
+	<Not name="not_target_int" selector="target_int" />
+	<And name="non_interface_target" selectors="not_target_int,target"/>
+</RESIDUE_SELECTORS>
+<TASKOPERATIONS>
+	<OperateOnResidueSubset name="move_interface" selector="target_int" >
+		<RestrictToRepackingRLT/>
+	</OperateOnResidueSubset>
+	<OperateOnResidueSubset name="hold_non_interface" selector="non_interface_target" >
+		<PreventRepackingRLT/>
+	</OperateOnResidueSubset>
+</TASKOPERATIONS>
+<MOVERS>
+	<PeptideCyclizeMover name="pcm" residue_selector="chA"/>
+	<FastRelax name="full_relax_complex" repeats="3" scorefxn="beta" min_type="dfpmin_armijo_nonmonotone" ramp_down_constraints="false" task_operations="move_interface,hold_non_interface">
+		<MoveMap name="specifics">
+			<Jump number="1" setting="true" />
+			<ResidueSelector selector="non_interface_target" chi="0" bb="0" />
+			<ResidueSelector selector="target_int" chi="1" bb="0" />
+		</MoveMap>
+	</FastRelax>
+</MOVERS>
+<PROTOCOLS>
+<Add mover="pcm" />
+<Add mover="full_relax_complex"/>
+</PROTOCOLS>
+<OUTPUT />
+</ROSETTASCRIPTS>
