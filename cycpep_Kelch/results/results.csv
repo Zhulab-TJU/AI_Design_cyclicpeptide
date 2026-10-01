@@ -1,4 +1,4 @@
-candidate_id,sequence,length,generator,iptm,ddg_kcal_per_mol,contact_molecular_surface,bli_signal,notes
+candidate_id,sequence,length,generator,iptm,ddG_kcal_per_mol,contact_molecular_surface,bli_signal,notes
 KCP8_9,GFNGDPFF,8,RFdiffusion+ProteinMPNN,0.79,-33.350,,binding,"AlphaFold3 bound state is close to the simple_cycpep_predict free state; pre-organised"
 KCP8_11,SGSPTVVA,8,RFdiffusion+ProteinMPNN,0.77,-28.441,,no binding,Candidate that completed the full AlphaFold3 + Rosetta workflow
 KCP8_20,GLPDDGPV,8,RFdiffusion+ProteinMPNN,0.80,-25.490,,no binding,"High ipTM but no detectable BLI signal; kept as a case showing the limits of ipTM"
