@@ -2,9 +2,6 @@
 # 72 residues in total, used as the restraint set for the RFdiffusion backbone runs.
 # Numbering follows chain R of PDB 8JIU / 8JIT, i.e. human GCGR (UniProt P47871)
 # residues 27-421.
-# Read out of the archived PyMOL session data/hotspots/HS1_GCGR.pse
-# (selection "HS1", object 8JIU). The list was extracted from the session file;
-# no residues were added or removed by hand.
 R27 R28 R29 R30 R32 R33 R36 R64 R65
 R84 R85 R87 R114 R118 R121 R122 R123 R127
 R128 R131 R134 R135 R137 R138 R139 R141 R142
